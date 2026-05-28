@@ -20,7 +20,7 @@ function readConfig() {
 
 const cfg = readConfig();
 
-export const API_BASE_URL = cfg.API_BASE_URL || 'https://api.peterpay.com/v1'; // change in production via window.__PETERPAY_CONFIG__
+export const API_BASE_URL = cfg.API_BASE_URL || 'https://www.peterpay.link/api/v1'; // change in production via window.__PETERPAY_CONFIG__
 
 export const DEFAULT_ENVIRONMENT: 'sandbox' | 'live' =
 cfg.ENVIRONMENT || 'sandbox';
